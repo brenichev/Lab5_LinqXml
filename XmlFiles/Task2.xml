@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <line>    
+    <word>line1Start</word>
+    <word>word</word>
+    <word>word</word>
+    <word>word</word>
+	<word>line1Finish</word>
+  </line>
+  <line>
+    <word></word>
+  </line>
+  <line>    
+    <word>line3Start</word>
+    <word></word>
+	<word>line3Finish</word>
+  </line>
+  <line>
+    <word>line4Start</word>
+    <word>word</word>
+	<word>line4Finish</word>
+  </line>
+</root>

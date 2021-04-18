@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root attr="attrroot1">
+  <line>
+    <word>line1Start</word>
+    <word>word</word>
+    <word>word</word>
+    <word>word</word>
+    <word>line1Finish</word>
+    <attr>attr1</attr>
+  </line>
+  <line>
+    <word attr="attrword1"></word>
+  </line>
+  <line>
+    <word>line3Start</word>
+    <word></word>
+    <word>line3Finish</word>
+    <attr>attr2</attr>
+  </line>
+  <line>
+    <word>line4Start</word>
+    <word attr="attrword2">word</word>
+    <word>line4Finish</word>
+    <attr>attr3</attr>
+  </line>
+</root>

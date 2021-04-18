@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root attr="attrroot1" min="0.1">
+  <line attr="attr1" realnum="12,2" min="4.6">
+    <word realnum="17,2">line1Start</word>
+    <word realnum="5,3">word</word>
+    <word realnum="4,6">word</word>
+    <word>word</word>
+    <word realnum="9,32">line1Finish</word>
+  </line>
+  <line realnum="65,3">
+    <word attr="attrword1"></word>
+  </line>
+  <line attr="attr2" min="0.1">
+    <word realnum="0,1">line3Start</word>
+    <word realnum="2,5"></word>
+    <word realnum="12,2">line3Finish</word>
+  </line>
+  <line attr="attr3" realnum="2,5" min="23.3">
+    <word>line4Start</word>
+    <word attr="attrword2">word</word>
+    <word realnum="23,3">line4Finish</word>
+  </line>
+</root>

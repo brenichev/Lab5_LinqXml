@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--root-->
+<root>
+<!--line1-->
+  <line>    
+	<!--word1_1-->
+    <word>line1Start</word>
+	<!--word1_2-->
+    <word>word</word>
+	<!--word1_3-->
+    <word>word</word>
+    <word>word</word>
+	<word>line1Finish</word>
+  </line>
+  <!--line2-->
+  <line>
+    <word>
+	<!--level3_2_1-->
+	<level3></level3>
+	</word>
+  </line>
+  <!--line3-->
+  <line>    
+    <word>line3Start</word>
+    <word></word>
+	<word>line3Finish</word>
+  </line>
+  <!--line4-->
+  <line>
+    <word>
+	<!--level3_4_1-->
+	<level3></level3>
+	</word>
+	<!--word1_4_1-->
+    <word>line4Start</word>
+	<!--word1_4_2-->
+    <word>word</word>
+	<word>line4Finish</word>
+  </line>
+</root>

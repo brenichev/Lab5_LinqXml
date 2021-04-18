@@ -1,0 +1,16 @@
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\bin\Debug\net5.0\Lab5_LinqXml.exe
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\bin\Debug\net5.0\Lab5_LinqXml.deps.json
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\bin\Debug\net5.0\Lab5_LinqXml.runtimeconfig.json
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\bin\Debug\net5.0\Lab5_LinqXml.runtimeconfig.dev.json
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\bin\Debug\net5.0\Lab5_LinqXml.dll
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\bin\Debug\net5.0\ref\Lab5_LinqXml.dll
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\bin\Debug\net5.0\Lab5_LinqXml.pdb
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.csprojAssemblyReference.cache
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.AssemblyInfoInputs.cache
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.AssemblyInfo.cs
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.csproj.CoreCompileInputs.cache
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.dll
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\ref\Lab5_LinqXml.dll
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.pdb
+C:\Users\breni\source\repos\Lab5_LinqXml\Lab5_LinqXml\obj\Debug\net5.0\Lab5_LinqXml.genruntimeconfig.cache
