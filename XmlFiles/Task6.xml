@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<r:root attr="attrroot1" xmlns:r="https://root">
+  <l:line attr="attr1" realnum="12,2" xmlns:l="https://line">    
+    <w:word realnum="17,2" xmlns:w="https://word">line1Start</w:word>
+    <l:word realnum="5,3">word</l:word>
+    <l:word realnum="4,6">word</l:word>
+    <word>word</word>
+	<word realnum="9,32">line1Finish</word>
+  </l:line>
+  <r:line realnum="65,3">
+    <word attr="attrword1"></word>
+  </r:line>
+  <line attr="attr2">    
+    <word realnum="0,1">line3Start</word>
+    <word realnum="2,5"></word>
+	<word realnum="12,2">line3Finish</word>
+  </line>
+  <line attr="attr3" realnum="2,5">
+    <word>line4Start</word>
+    <word attr="attrword2">word</word>
+	<word realnum="23,3">line4Finish</word>
+  </line>
+</r:root>

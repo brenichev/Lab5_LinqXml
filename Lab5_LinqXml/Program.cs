@@ -15,6 +15,8 @@ namespace Lab5_LinqXml
             Task3();
             Task4();
             Task5();
+            Task6();
+            Task7();
         }
 
         static void Task1()
@@ -26,7 +28,7 @@ namespace Lab5_LinqXml
                 StreamReader sr = new StreamReader(fs);
                 while (!sr.EndOfStream)
                 {
-                    root.Add(new XElement("line", from word in sr.ReadLine().Trim().Split(' ' , StringSplitOptions.RemoveEmptyEntries) orderby word select new XElement("word", word)));
+                    root.Add(new XElement("line", from word in sr.ReadLine().Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries) orderby word select new XElement("word", word)));
                 }
             }
             res = new XDocument(root);
@@ -41,7 +43,7 @@ namespace Lab5_LinqXml
             foreach (var n in lvl2)
             {
                 Console.WriteLine(n.name + " " + n.val);
-            }           
+            }
         }
 
         static void Task3()
@@ -55,8 +57,8 @@ namespace Lab5_LinqXml
         {
             XDocument xdoc = new XDocument(XDocument.Load(@$"{path}Task4.xml"));
 
-            var withatr= xdoc.Root.Elements().Where(x => x.HasAttributes);
-            foreach(var val in withatr)
+            var withatr = xdoc.Root.Elements().Where(x => x.HasAttributes);
+            foreach (var val in withatr)
             {
                 val.ReplaceAttributes(val.Attributes().Select(atr => new XElement(atr.Name, atr.Value)));
             }
@@ -86,5 +88,46 @@ namespace Lab5_LinqXml
             xdoc.Save(@$"{path}Task5Result.xml");
         }
 
+        static void Task6()
+        {
+            XDocument xdoc = new XDocument(XDocument.Load(@$"{path}Task6.xml"));
+
+            XNamespace rootNs = xdoc.Root.Name.NamespaceName;
+            foreach (var item in xdoc.Root.Elements())
+            {
+                XElement prefElem = new XElement(rootNs + item.Name.LocalName);
+                item.Name = prefElem.Name;
+                foreach (var item2 in item.Elements())
+                {
+                    XElement prefElem2 = new XElement(rootNs + item2.Name.LocalName);
+                    item2.Name = prefElem2.Name;
+                }
+            }
+            xdoc.Save(@$"{path}Task6Result.xml");
+        }
+
+        static void Task7()
+        {
+            XDocument xdoc = new XDocument(XDocument.Load(@$"{path}Task7.xml"));
+            /*xdoc.Root.ReplaceNodes(from e in xdoc.Root.Elements()
+                                   orderby e.Element("date")
+                                   group e by e.Element("date") into ee
+                                   select new XElement("y" + ((DateTime)ee.Key), 
+                                   from e1 in ee )*/
+            xdoc.Root.ReplaceNodes(xdoc.Root.Elements().Select(e => new XElement("time",
+                new XAttribute("year", e.Element("client").Attribute("id").Value), 
+                new XAttribute("month", ((DateTime)e.Element("date")).Month),
+                e.Element("time").Value)));
+            xdoc.Save(@$"{path}Task7Result.xml");
+        }
+        static string GetTime(string s)
+        {
+            s = s.Trim('P', 'T', 'M');
+
+            string[] time = s.Split('H');
+
+            string res = $"{time[0]}:{time[1]}:00";
+            return res;
+        }
     }
 }

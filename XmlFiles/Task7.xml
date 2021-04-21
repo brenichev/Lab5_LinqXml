@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <client id="10">
+    <date>2002-09-24</date>
+    <time>PT2H30M</time>
+  </client>
+  <client id="11">
+    <date>2000-04-15</date>
+    <time>PT1H15M</time>
+  </client>
+  <client id="12">
+    <date>2005-11-07</date>
+    <time>PT0H55M</time>
+  </client>
+  <client id="13">
+    <date>2005-11-16</date>
+    <time>PT1H30M</time>
+  </client>
+</root>
